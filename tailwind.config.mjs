@@ -50,6 +50,10 @@ module.exports = {
                     foreground: "var(--color-muted-foreground)",
                     background: "var(--color-muted-background)",
                 },
+                disabled: {
+                    DEFAULT: "var(--color-disabled)",
+                    background: "var(--color-disabled-background)",
+                }
             },
             borderRadius: {
                 xl: "calc(var(--radius) + 4px)",

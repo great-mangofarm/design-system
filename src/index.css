@@ -47,6 +47,9 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-muted-background: var(--muted-background);
 
+  --color-disabled-background: var(--disabled-background);
+  --color-disabled:var(--disabled);
+
   --color-border: var(--border);
 
   --color-input: var(--input);
@@ -107,7 +110,7 @@
   --muted-background: var(--grey-200);
   --muted-foreground: var(--grey-900);
 
-  --disabed: var(--grey-600);
+  --disabled: var(--grey-600);
   --disabled-background: var(--grey-800);
 
   --border: var(--grey-600);
