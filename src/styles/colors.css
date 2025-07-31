@@ -1,0 +1,64 @@
+:root {
+    /* Tailwind border radius */
+    --radius: 0.5rem;
+
+    /* 기본 색상 */
+    --white: #ffffff;
+    --black: #000000;
+
+    /* Primary 팔레트 (블루 계열) */
+    --primary-50: #fbfdff;
+    --primary-100: #f4fafe;
+    --primary-200: #e5f4fe;
+    --primary-300: #d4eeff;
+    --primary-400: #c1e5fd;
+    --primary-500: #acd8f6;
+    --primary-600: #8fc8ee;
+    --primary-700: #5fb2e5;
+    --primary-800: #01a8ef;
+    --primary-850: #009cde;
+    --primary-900: #007bbc;
+    --primary-950: #013955;
+
+    /* Warning 팔레트 (오렌지/옐로우 계열) */
+    --warning-50: #fefdfb;
+    --warning-100: #fff9e9;
+    --warning-200: #fff0cb;
+    --warning-300: #ffe6b4;
+    --warning-400: #ffdb99;
+    --warning-500: #ffcb74;
+    --warning-600: #f6ba67;
+    --warning-700: #e5a23a;
+    --warning-800: #ffab00;
+    --warning-850: #e9a53e;
+    --warning-900: #a76700;
+    --warning-950: #4a371e;
+
+    /* Error 팔레트 (레드 계열) */
+    --error-50: #fffcfc;
+    --error-100: #fff7f6;
+    --error-200: #ffeae8;
+    --error-300: #ffd9d5;
+    --error-400: #ffc9c5;
+    --error-500: #ffb9b4;
+    --error-600: #ffa39f;
+    --error-700: #f88682;
+    --error-800: #ff2d42;
+    --error-850: #f10c35;
+    --error-900: #dd0026;
+    --error-950: #6d0212;
+
+    /* Grey 팔레트 */
+    --grey-50: #fcfcfd;
+    --grey-100: #f9f9fb;
+    --grey-200: #eff0f3;
+    --grey-300: #e7e8ec;
+    --grey-400: #e0e1e6;
+    --grey-500: #d8d9e0;
+    --grey-600: #cdced7;
+    --grey-700: #b9bbc6;
+    --grey-800: #8b8d98;
+    --grey-850: #80828d;
+    --grey-900: #62636c;
+    --grey-950: #1e1f24;
+}
