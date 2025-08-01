@@ -1,0 +1,42 @@
+import {
+    Heart,
+    Star,
+    ChevronDown,
+    X,
+    Menu,
+    Home,
+    User,
+    Settings,
+    Search,
+    Plus,
+    Minus,
+    Check,
+    AlertCircle,
+    Info,
+    Trash2,
+    Edit,
+    FileSpreadsheet,
+    type LucideIcon,
+} from "lucide-react"
+
+export type Icon = LucideIcon
+
+export const Icons = {
+    heart: Heart,
+    star: Star,
+    chevronDown: ChevronDown,
+    close: X,
+    menu: Menu,
+    home: Home,
+    user: User,
+    settings: Settings,
+    search: Search,
+    plus: Plus,
+    minus: Minus,
+    check: Check,
+    warning: AlertCircle,
+    info: Info,
+    trash: Trash2,
+    edit: Edit,
+    excel: FileSpreadsheet,
+}

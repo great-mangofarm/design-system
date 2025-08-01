@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "EverMono";
+    src: url("src/assets/fonts/EverMono.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EverMono";
+    src: url("src/assets/fonts/EverMono-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EverMono";
+    src: url("src/assets/fonts/EverMono-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EverMono";
+    src: url("src/assets/fonts/EverMono-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}

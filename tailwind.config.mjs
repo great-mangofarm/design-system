@@ -4,7 +4,23 @@ const { fontFamily } = require("tailwindcss/defaultTheme")
 module.exports = {
     content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
     theme: {
+        screens: {
+            sm: 'var(--breakpoint-sm)',
+            md: 'var(--breakpoint-md)',
+            lg: 'var(--breakpoint-lg)',
+            xl: 'var(--breakpoint-xl)',
+        },
         extend: {
+            fontFamily: {
+                sans: ["var(--font-sans)", ...fontFamily.sans],
+                mono: ["var(--font-mono)", ...fontFamily.mono],
+            },
+            fontSize: {
+                'xs' :['var(--font-size-xs)', {lineHeight: 'var(--line-height-xs)'}],
+            },
+            letterSpacing: {
+                tight: 'var(--letter-spacing)',
+            },
             colors: {
                 white: "var(--white)",
                 black: "var(--black)",
@@ -26,13 +42,22 @@ module.exports = {
                 selection: "var(--color-selection)",
                 "selection-foreground": "var(--color-selection-foreground)",
 
+
                 // 상태별 색상
                 primary: {
                     DEFAULT: "var(--color-primary)",
                     background: "var(--color-primary-background)",
                     foreground: "var(--color-primary-foreground)",
                     dark: "var(--color-primary-dark)",
+                    light: "var(--color-primary-light)",
                 },
+                secondary: {
+                    DEFAULT: "var(--color-secondary)",
+                    background: "var(--color-secondary-background)",
+                    foreground: "var(--color-secondary-foreground)",
+                    light: "var(--color-secondary-light)",
+                },
+
                 warning: {
                     DEFAULT: "var(--color-warning)",
                     background: "var(--color-warning-background)",
@@ -49,10 +74,12 @@ module.exports = {
                     DEFAULT: "var(--color-muted)",
                     foreground: "var(--color-muted-foreground)",
                     background: "var(--color-muted-background)",
+                    light: "var(--color-muted-light)",
                 },
                 disabled: {
                     DEFAULT: "var(--color-disabled)",
                     background: "var(--color-disabled-background)",
+                    foreground: "var(--color-disabled-foreground)",
                 }
             },
             borderRadius: {
